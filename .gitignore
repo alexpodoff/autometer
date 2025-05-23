@@ -1,0 +1,42 @@
+# Python & setuptools
+__pycache__
+/build
+/deb-build
+/reprepro
+/rpm-build
+/tar-build
+/setup-bundle-build
+/dist
+/*.egg-info
+*.py[c,o]
+/.eggs
+
+# Testing
+.cache
+.coverage
+htmlcov
+pep8.txt
+scratch
+testem.log
+.pytest_cache/
+
+# Mac OS X
+*.DS_Store
+
+# VSCode
+.vscode/
+
+# Editors
+*.sw[poj]
+*~
+
+# Other
+.idea/*
+.env
+
+#python libs populated by requirements.txt
+venv/*
+.venv
+
+# Pyenv
+.python-version
